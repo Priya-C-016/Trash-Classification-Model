@@ -5,6 +5,7 @@ Recycling is the process of converting waste materials into new materials and ob
 
 ## 🧠 Model Overview
 
+
 - **Model Type:** Convolutional Neural Network (CNN)
 - **Framework:** TensorFlow / Keras
 - **Architecture:** Built using `Sequential()`
@@ -12,7 +13,9 @@ Recycling is the process of converting waste materials into new materials and ob
 ### 🧪 Categories
 
 - 🍌 **Organic** – food scraps, leaves, biodegradable material
+- ![Trash Classifier Output](Screenshot%20(397).png)
 - ♻️ **Recycle** – plastics, metals, paper, glass
+- ![Trash Classifier Output](Screenshot%20(398).png)
 
 ---
 
