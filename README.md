@@ -4,6 +4,7 @@ Waste is a significant global issue. Increasing volumes of waste are being gener
 
 Recycling is the process of converting waste materials into new materials and objects. The recovery of energy from waste materials is often included in this concept. The recyclability of a material depends on its ability to reacquire the properties it had in its original state. It is an alternative to "conventional" waste disposal that can save material and help lower greenhouse gas emissions. Recycling can prevent the waste of potentially useful materials and reduce the consumption of fresh raw materials, thereby reducing: energy usage, air pollution (from incineration), and water pollution (from landfilling).
 
+![Model Architecture](https://github.com/Priya-C-016/Trash-Classification-Model/blob/main/images/download%20(7).png)
 ## 🧠 Model Overview
 
 
@@ -15,10 +16,12 @@ Recycling is the process of converting waste materials into new materials and ob
 ### 🧪 Categories
 
 - 🍌 **Organic** – food scraps, leaves, biodegradable material
-![Trash Classifier Output](Screenshot%20(397).png)
+
+![Trash Classifier Output](https://github.com/Priya-C-016/Trash-Classification-Model/blob/main/images/Screenshot%20(397).png)
   
 - ♻️ **Recycle** – plastics, metals, paper, glass
-![Trash Classifier Output](Screenshot%20(398).png)
+  
+![Trash Classifier Output](https://github.com/Priya-C-016/Trash-Classification-Model/blob/main/images/Screenshot%20(397).png)
 
 ---
 
@@ -32,6 +35,9 @@ The model is trained on a dataset containing labeled images of:
 **Data Sources:**
 - Public image repositories (e.g., Kaggle, OpenML, or custom scraped datasets)
 - Augmented using rotation, flipping, and brightness adjustment to improve model generalization
+
+
+![Model Architecture](https://github.com/Priya-C-016/Trash-Classification-Model/blob/main/images/download%20(5).png)
 
 The dataset was split into:
 - **Training Set** – 70%
@@ -49,6 +55,8 @@ The trash classification model uses a **Convolutional Neural Network (CNN)** des
 
 The model is lightweight and optimized for fast training and inference on limited hardware.
 
+![Model Architecture](https://github.com/Priya-C-016/Trash-Classification-Model/blob/main/images/__results___15_0.png)
+
 ---
 
 ## 🏁 Training & Evaluation
@@ -57,7 +65,9 @@ The model is lightweight and optimized for fast training and inference on limite
 - **Loss Function:** Categorical Crossentropy  
 - **Epochs:** 25  
 - **Batch Size:** 32  
-- **Data Split:** 70% Training, 15% Validation, 15% Testing  
+- **Data Split:** 70% Training, 15% Validation, 15% Testing
+
+![Model Architecture](https://github.com/Priya-C-016/Trash-Classification-Model/blob/main/images/download%20(6).png)
 
 The model is evaluated using:
 - ✅ Accuracy
@@ -72,9 +82,6 @@ The model is evaluated using:
 - **Test Accuracy:** 91.5%  
 - **F1 Score:** 0.89  
 
-> 📌 *Results may vary depending on dataset size and hardware used for training.*
-
-
 
 ---
 
@@ -85,12 +92,6 @@ The model is evaluated using:
 - [ ] Improve model accuracy with **transfer learning** (e.g., MobileNet, ResNet)  
 - [ ] Build a **mobile-friendly version** using TensorFlow Lite  
 
----
-
-## 🤖 Deployment
-
-Coming soon! 🚀  
-The model will be deployed using a lightweight **Streamlit web app** to allow users to upload images and view predictions in real time.
 
 ---
 
