@@ -97,3 +97,8 @@ The model is evaluated using:
 
 Let me know if you want me to generate this into a full README template with title, badges, and everything done!
 
+## Author
+Priya Chanchal :)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Priya--C--016-black?logo=github)](https://github.com/Priya-C-016)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Priya--Chanchal-blue?logo=linkedin)](https://www.linkedin.com/in/priya-chanchal-050b86288/)
